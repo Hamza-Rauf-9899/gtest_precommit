@@ -4,7 +4,7 @@ using namespace std;
 
 double squareRoot(const double a) {
     double b = sqrt(a);
-    if(b != b) { // nan check
+    if(b != b) { // nan check if a ff
         return -1.0;
     }else{  
         return sqrt(a);
