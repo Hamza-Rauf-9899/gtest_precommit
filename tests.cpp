@@ -41,10 +41,10 @@ TEST(SquareRootTest, PositiveNos) {
     ASSERT_EQ(0, squareRoot(0.0));
 }
  
-// TEST(SquareRootTest, NegativeNos) {
-//     ASSERT_EQ(-1.0, squareRoot(-15.0));
-//     ASSERT_EQ(-1.0, squareRoot(-0.2));
-// }
+TEST(SquareRootTest, NegativeNos) {
+    ASSERT_EQ(-1.0, squareRoot(-15.0));
+    ASSERT_EQ(-1.0, squareRoot(-0.2));
+}
 
 // // Tests factorial of 0.
 // TEST(FactorialTest, HandlesZeroInput) {
