@@ -34,7 +34,7 @@ ASSERT_DEATH({
 
 
 TEST(SquareRootTest, PositiveNos) { 
-    ASSERT_EQ(6, squareRoot(36.0));
+    ASSERT_EQ(61, squareRoot(36.0));
     ASSERT_EQ(18.0, squareRoot(324.0));
     GTEST_SKIP() << "Skipping two tests";
     ASSERT_EQ(25.4, squareRoot(645.16));
