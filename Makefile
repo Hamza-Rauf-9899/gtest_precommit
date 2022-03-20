@@ -4,11 +4,12 @@ all:
 	# g++ tests.cpp -std=c++17 -lgtest -lgtest_main -lgmock -pthread -o tests
 
 	g++ tests.cpp -std=c++17 -lgtest -lgtest_main -lgmock -pthread -o tests
-
-
-test:
-	
 	./tests
+
+
+# test:
+	
+# 	./tests
 
 clean:
 	$(RM) tests
